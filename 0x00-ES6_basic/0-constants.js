@@ -1,9 +1,11 @@
+// Author: Hesron Atee
+
 export function taskFirst() {
   const task = 'I prefer const when I can.';
   return task;
 }
 
-function getLast() {
+export function getLast() {
   return ' is okay';
 }
 
