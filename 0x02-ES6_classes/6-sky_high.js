@@ -1,6 +1,10 @@
-import Building from './5-building';
+export default class Building {
+  constructor(sqft) {
+    this.sqft = sqft;
+  }
+}
 
-export default class SkyHighBuilding extends Building {
+export class SkyHighBuilding extends Building {
   constructor(sqft, floors) {
     super(sqft);
     this.floors = floors;
