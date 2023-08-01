@@ -1,4 +1,9 @@
-export default function getStudentIdsSum(arr) {
-  return arr.reduce((acc, student) => acc + student.id, 0);
-}
+const getStudentIdsSum = (students) => {
+  const all = students
+    .map((student) => student.id)
+    .reduce((studentPrev, studentCurrent) => studentPrev + studentCurrent);
 
+  return all;
+};
+
+export default getStudentIdsSum;
