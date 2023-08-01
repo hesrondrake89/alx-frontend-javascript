@@ -15,4 +15,5 @@ const getListStudents = () => [
     location: 'San Francisco',
   },
 ];
+
 export default getListStudents;
